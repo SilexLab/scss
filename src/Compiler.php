@@ -10,10 +10,10 @@
  * @link http://leafo.net/scssphp
  */
 
-namespace Leafo\ScssPhp;
+namespace Scss;
 
-use Leafo\ScssPhp\Colors;
-use Leafo\ScssPhp\Parser;
+use Scss\Colors;
+use Scss\Parser;
 
 /**
  * The scss compiler and parser.
@@ -99,7 +99,7 @@ class Compiler
 
     protected $numberPrecision = 5;
 
-    protected $formatter = 'Leafo\ScssPhp\Formatter\Nested';
+    protected $formatter = 'Scss\Formatter\Nested';
 
     /**
      * Compile scss

@@ -10,9 +10,9 @@
  * @link http://leafo.net/scssphp
  */
 
-namespace Leafo\ScssPhp;
+namespace Scss;
 
-use Leafo\ScssPhp\Compiler;
+use Scss\Compiler;
 
 /**
  * SCSS parser
@@ -76,7 +76,7 @@ class Parser
     protected static function makeOperatorStr($operators)
     {
         return '('
-            . implode('|', array_map(array('Leafo\ScssPhp\Parser','pregQuote'), $operators))
+            . implode('|', array_map(array('Scss\Parser','pregQuote'), $operators))
             . ')';
     }
 

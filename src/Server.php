@@ -10,9 +10,9 @@
  * @link http://leafo.net/scssphp
  */
 
-namespace Leafo\ScssPhp;
+namespace Scss;
 
-use Leafo\ScssPhp\Compiler;
+use Scss\Compiler;
 
 /**
  * SCSS server
@@ -278,7 +278,7 @@ class Server
      *
      * @param string                       $dir      Root directory to .scss files
      * @param string                       $cacheDir Cache directory
-     * @param \Leafo\ScssPhp\Compiler|null $scss     SCSS compiler instance
+     * @param \Scss\Compiler|null $scss     SCSS compiler instance
      */
     public function __construct($dir, $cacheDir = null, $scss = null)
     {

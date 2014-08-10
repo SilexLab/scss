@@ -10,9 +10,9 @@
  * @link http://leafo.net/scssphp
  */
 
-namespace Leafo\ScssPhp;
+namespace Scss;
 
-use Leafo\ScssPhp\Parser;
+use Scss\Parser;
 
 /**
  * CSS Colors

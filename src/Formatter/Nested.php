@@ -10,9 +10,9 @@
  * @link http://leafo.net/scssphp
  */
 
-namespace Leafo\ScssPhp\Formatter;
+namespace Scss\Formatter;
 
-use Leafo\ScssPhp\Formatter;
+use Scss\Formatter;
 
 /**
  * SCSS nested formatter

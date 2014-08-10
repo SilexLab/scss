@@ -10,7 +10,7 @@
  * @link http://leafo.net/scssphp
  */
 
-namespace Leafo\ScssPhp;
+namespace Scss;
 
 /**
  * SCSS base formatter
