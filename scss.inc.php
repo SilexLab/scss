@@ -7,4 +7,5 @@ include_once __DIR__ . '/src/Formatter/Crunched.php';
 include_once __DIR__ . '/src/Formatter/Expanded.php';
 include_once __DIR__ . '/src/Formatter/Nested.php';
 include_once __DIR__ . '/src/Parser.php';
+include_once __DIR__ . '/src/Version.php';
 include_once __DIR__ . '/src/Server.php';
