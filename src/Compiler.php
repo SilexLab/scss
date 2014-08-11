@@ -49,8 +49,6 @@ use Scss\Parser;
  */
 class Compiler
 {
-    static public $VERSION = 'v0.1.0';
-
     static protected $operatorNames = array(
         '+' => 'add',
         '-' => 'sub',
