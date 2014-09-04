@@ -12,8 +12,6 @@
 
 namespace Scss;
 
-use Scss\Parser;
-
 /**
  * CSS Colors
  *
